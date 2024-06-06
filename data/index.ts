@@ -107,33 +107,33 @@ export const projects = [
 export const testimonials = [
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "I am writing this letter to highly recommend Volodymyr Semenov for the position of Middle React Engineer at your esteemed organization. During his work at Tacans, Volodymyr consistently demonstrated exceptional skills and dedication, making him an invaluable asset to our team.",
+    name: "Maria Mazepa",
+    title: "Group Head of HR | Tacans",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "I am writing this letter to highly recommend Volodymyr Semenov for the position of Middle React Engineer at your esteemed organization. During his work at Tacans, Volodymyr consistently demonstrated exceptional skills and dedication, making him an invaluable asset to our team.",
+    name: "Maria Mazepa",
+    title: "Group Head of HR | Tacans",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+       "I am writing this letter to highly recommend Volodymyr Semenov for the position of Middle React Engineer at your esteemed organization. During his work at Tacans, Volodymyr consistently demonstrated exceptional skills and dedication, making him an invaluable asset to our team.",
+    name: "Maria Mazepa",
+    title: "Group Head of HR | Tacans",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+       "I am writing this letter to highly recommend Volodymyr Semenov for the position of Middle React Engineer at your esteemed organization. During his work at Tacans, Volodymyr consistently demonstrated exceptional skills and dedication, making him an invaluable asset to our team.",
+    name: "Maria Mazepa",
+    title: "Group Head of HR | Tacans",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+       "I am writing this letter to highly recommend Volodymyr Semenov for the position of Middle React Engineer at your esteemed organization. During his work at Tacans, Volodymyr consistently demonstrated exceptional skills and dedication, making him an invaluable asset to our team.",
+    name: "Maria Mazepa",
+    title: "Group Head of HR | Tacans",
   },
 ];
 
@@ -194,7 +194,7 @@ export const workExperience = [
   },
   {
     id: 4,
-    title: "Lead Frontend Developer",
+    title: "Middle Frontend Developer",
     desc: "Developed and maintained user-facing features using modern frontend technologies.",
     className: "md:col-span-2",
     thumbnail: "/exp4.svg",
@@ -215,3 +215,47 @@ export const socialMedia = [
     img: "/link.svg",
   },
 ];
+
+export const techStackLeft = [
+    'React.js', 'Next.js', 'TypeScript',
+];
+
+export const techStackRight = [
+ 'Node', 'AWS', 'MongoDB'
+];
+
+export const myApproachData = [
+  {
+    id: 1,
+    title: 'Planning & Strategy',
+    order:'Phase 1',
+    des: "We'll collaborate to map out your website&aposs goals, target audience, and key functionalities. We'll discuss things like site structure, navigation, and content requirements.",
+    animationSpeed: 5.1,
+    containerClassName: "bg-emerald-900 rounded-3xl overflow-hidden",
+  },
+  {
+    id: 2,
+    title: 'Development & Progress Update',
+    order:'Phase 2',
+    des: 'Once we agree on the plan, I cue my lofi playlist and dive into coding. From initial sketches to polished code, I keep you updated every step of the way.',
+    animationSpeed: 3,
+    containerClassName: "bg-pink-900 rounded-3xl overflow-hidden",
+    colors:[
+              [255, 166, 158],
+              [221, 255, 247],
+            ],
+    dotSize: 2,
+  },
+  {
+    id: 3,
+    title: 'Development & Launch',
+    order:'Phase 3',
+    des: "This is where the magic happens! Based on the approved design, I'll translate everything into functional code, building your website from the ground up.",
+    animationSpeed: 3,
+    containerClassName: "bg-sky-600 rounded-3xl overflow-hidden",
+    colors:[
+      [125, 211, 252]
+    ],
+
+  },
+]
