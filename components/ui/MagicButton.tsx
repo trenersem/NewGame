@@ -15,7 +15,7 @@ const MagicButton = ({
         }
         return false; // Якщо navigator не доступний, вважаємо, що це не Safari.
     }
-}
+    
   return !isSafari() ? (
     <button
         className="relative inline-flex h-12 overflow-hidden rounded-lg w-full p-[1px] focus:outline-none md:w-60 md:mt-10 "
