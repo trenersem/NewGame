@@ -9,8 +9,12 @@ const MagicButton = ({
     handleClick?: () => void, otherClasses?: string
 }) => {
     function isSafari() {
-    const ua = navigator.userAgent;
-    return ua.includes("Safari") && !ua.includes("Chrome");
+        if (typeof navigator !== 'undefined') {
+            const ua = navigator.userAgent;
+            return ua.includes("Safari") && !ua.includes("Chrome");
+        }
+        return false; // Якщо navigator не доступний, вважаємо, що це не Safari.
+    }
 }
   return !isSafari() ? (
     <button
