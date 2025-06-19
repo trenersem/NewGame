@@ -26,6 +26,9 @@ const config = {
       },
     },
     extend: {
+      fontFamily: {
+        geist: ["Geist Mono"],
+      },
       colors: {
         black: {
           DEFAULT: "#000",
@@ -40,6 +43,9 @@ const config = {
         },
         blue: {
           "100": "#E4ECFF",
+        },
+        gray: {
+          '600': '#959595'
         },
         purple: "#CBACF9",
         border: "hsl(var(--border))",

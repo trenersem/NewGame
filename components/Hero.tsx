@@ -3,8 +3,16 @@ import { Spotlight } from './ui/Spotlight'
 import { TextGenerateEffect } from './ui/TextGenerateEffect'
 import MagicButton from './ui/MagicButton'
 import { FaLocationArrow } from 'react-icons/fa6'
+import { PointerHighlight } from './ui/PointerHighlight'
+import { FlipWords } from './ui/FlipWords'
+import Link from 'next/link'
+import { HoverBorderGradient } from './ui/HoverBorderGradient'
+import { TextHoverEffect } from './ui/TextHoverEffect'
 
 const Hero = () => {
+
+const words = ["better", "cute", "beautiful", "modern"];
+
   return (
     <div className='pb-20 pt-36'>
         <div>
@@ -18,30 +26,43 @@ const Hero = () => {
          </div>
 
          <div className='flex justify-center relative my-20 z-10'>
-            <div className='max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center'>
-                <h2 className='uppercase tracking-widest text-xs text-center text-blue-100 max-w-80'>
-                    Dynamic Web Magic Next.js
+            <div className='w-full max-w-[95vw] flex flex-col items-center justify-center'>
+                <h2 className='w-full uppercase tracking-widest text-xs text-left text-gray-600'>
+                   Build
+                    <FlipWords words={words} />
+                    <br/>
+                    websites with 
                 </h2>
                 <TextGenerateEffect
-                    className='text-center text-[40px] md:text-5xl lg:text-6xl'
-                    words='Transforming Concepts into Seanless User Experiences'
+                    className='w-full text-left text-[40px] md:text-5xl lg:text-6xl'
+                    words='Nous Solutions'
                 />
 
                 <p
-                    className='text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl'
+                    className='w-full text-left text-gray-600 mb-4 text-sm md:text-lg lg:text-2xl'
                 >
-                    Hi, I&apos;m Volodymyr, a Front end Developer based in USA
+                     The best way to grow is to collaborate
+                    {/* <PointerHighlight> */}
+                        {/* <span>collaborate</span> */}
+                    {/* </PointerHighlight> */}
                 </p>
 
-                <a
-                    href='#about'
+                <div
+                 className='w-full flex justify-enditems-center'
                 >
-                    <MagicButton 
-                        title='Show my work'
-                        icon={<FaLocationArrow />}
-                        position='right'
-                    />
-                </a>
+                    <Link
+                        href='#about'
+                    >
+                        <MagicButton 
+                            title='About us'
+                            icon={<FaLocationArrow />}
+                            position='righ'
+                            className='md:w-auto md:mt-0 w-[150px] mt-0  h-[2.5rem]'
+                        />
+                        
+                    </Link>
+                </div>
+
             </div>
 
          </div>
